@@ -1,0 +1,17 @@
+{
+  "name": "cfe-website",
+  "version": "0.0.1",
+  "description": "A website for Silver Creek's new CFE club",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "Richard Pham, Mayur Rajan, Om Sanghvi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "nodemon": "^2.0.12"
+  }
+}
