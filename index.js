@@ -12,6 +12,9 @@ app.get('/', (req, res) => {
   res.render("home")
 })
 
+app.get('/meet-the-teachers', (req, res) => {
+  res.render("meet-the-teachers")
+})
 
 
 app.listen(3000, () => {
