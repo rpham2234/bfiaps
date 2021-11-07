@@ -16,6 +16,10 @@ app.get('/meet-the-teachers', (req, res) => {
   res.render("meet-the-teachers")
 })
 
+app.get('/classes', (req, res) => {
+  res.render("classes")
+})
+
 
 app.listen(3000, () => {
   console.log(`App listening on port ${port}!`)
