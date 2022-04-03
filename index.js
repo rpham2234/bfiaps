@@ -20,9 +20,13 @@ app.get('/classes', (req, res) => {
   res.render("classes")
 })
 
+app.get('/signup' , (req,res) => {
+  res.render("enroll")
+})
+
 app.get('/about',(req,res) =>{
   res.render("about")
 })
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log(`App listening on port ${port}!`)
 })
