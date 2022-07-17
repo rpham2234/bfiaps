@@ -27,6 +27,11 @@ app.get('/signup' , (req,res) => {
 app.get('/about',(req,res) =>{
   res.render("about")
 })
+
+app.get('/donate',(req,res)=>{
+  res.render("donate")
+})
+
 app.listen(port, () => {
   console.log(`App listening on port ${port}!`)
 })
