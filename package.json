@@ -1,13 +1,13 @@
 {
-  "name": "cfe-website",
-  "version": "0.0.1",
-  "description": "A website for Silver Creek's new CFE club",
+  "name": "bfiaps",
+  "version": "1.5.0",
+  "description": "A website for the Bright Future Infant and Primary School in Uganda",
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
     "start": "node index.js"
   },
-  "author": "Richard Pham, Mayur Rajan, Om Sanghvi",
+  "author": "Richard Pham",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
